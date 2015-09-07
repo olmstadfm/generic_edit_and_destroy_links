@@ -1,13 +1,9 @@
 # Generic edit and destroy links for Rails
 
-```ruby
-Rails.application.routes.draw do
+Add to your `Gemfile`:
 
-  resources :events
-  resources :sources
-  resources :lilac_betelgeuse_silkworms
-  
-end
+```ruby
+gem 'generic_edit_and_destroy_links', git: 'https://github.com/teksisto/generic_edit_and_destroy_links.git'
 ```
 
 You can pass any object with defined routes...
