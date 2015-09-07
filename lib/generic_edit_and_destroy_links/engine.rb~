@@ -1,4 +1,0 @@
-module GenericEditAndDestroyLinks
-  class Engine < ::Rails::Engine
-  end
-end
